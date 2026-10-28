@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses | Teller's Higts Technologies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav>
+    <div class="logo">
+    <img src="assets/logo.png" alt="Teller's Higts Logo">
+    <span>TELLER'S HIGTS</span>
+</div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<section class="container">
+    <h2 class="section-title">Our Courses</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <div class="badge">Bestseller</div>
+            <img src="assets/coding-kids.jpg" alt="Coding for Kids">
+            <div class="card-content">
+                <h3>Coding for Kids</h3>
+                <p>Introduction to logic, Scratch, and Python basics.</p>
+                <div class="rating">4.8 <span>★★★★★</span> (120)</div>
+                <h4 class="price">₦40,000</h4>
+                <button onclick="enroll('Coding for Kids')" class="btn-enroll">
+                    Enroll via WhatsApp
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assets/web-dev.jpg" alt="Full Stack Web Dev">
+            <div class="card-content">
+                <h3>Full Stack Web Development</h3>
+                <p>Master HTML, CSS, JS, and Python Flask.</p>
+                <div class="rating">4.9 <span>★★★★★</span> (450)</div>
+                <h4 class="price">₦120,000</h4>
+                <button onclick="enroll('Full Stack Web Development')" class="btn-enroll">
+                    Enroll via WhatsApp
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="assets/meta-ads.jpg" alt="Meta Ads">
+            <div class="card-content">
+                <h3>Meta Ads Mastery</h3>
+                <p>Targeting, Pixel setup.</p>
+                <div class="rating">4.7 <span>★★★★★</span> (85)</div>
+                <h4 class="price">₦60,000</h4>
+                <button onclick="enroll('Meta Ads Mastery')" class="btn-enroll">
+                    Enroll via WhatsApp
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="badge" style="background: var(--accent);">Hot</div>
+            <img src="assets/upwork.jpg" alt="Upwork Blueprint">
+            <div class="card-content">
+                <h3>Upwork Freelancing Blueprint</h3>
+                <p>Win high-paying global clients from Nigeria.</p>
+                <div class="rating">5.0 <span>★★★★★</span> (210)</div>
+                <h4 class="price">₦50,000</h4>
+                <button onclick="enroll('Upwork Freelancing Blueprint')" class="btn-enroll">
+                    Enroll via WhatsApp
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
+    <footer style="background: #111827; color: white; padding: 2rem; text-align: center; margin-top: 4rem;">
+        <p>&copy; 2026 Teller’s Higts Technologies</p>
+    </footer>
+<!-- JS -->
+<script src="js/main.js"></script>
+</body>
+</html>

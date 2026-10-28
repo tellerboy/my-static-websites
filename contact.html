@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Teller’s Higts Technologies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="contact-page">
+    <nav>
+        <div class="logo">
+    <img src="assets/logo.png" alt="Teller's Higts Logo">
+    <span>TELLER'S HIGTS</span>
+</div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <div class="grid" style="grid-template-columns: 1fr 1fr;">
+            <div>
+                <h2 style="font-size: 2rem; color: var(--primary);">Get In Touch</h2>
+                <p style="margin: 1rem 0;">Have a question? We’re here to help. Send us a message and we'll respond as soon as possible.</p>
+                <div style="margin-top: 2rem;">
+                    <p><strong>Email:</strong> hello@tellershigts.com</p>
+                    <p><strong>Location:</strong> Lagos, Nigeria (Remote Worldwide)</p>
+                    <p><strong>Working Hours:</strong> Mon - Sat, 9am - 6pm</p>
+                </div>
+            </div>
+
+            <div class="card card-content">
+                <form id="contactForm">
+                    <div style="margin-bottom: 1rem;">
+                        <label>Your Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required style="width:100%; padding: 10px; margin-top: 5px; border: 1px solid #ddd; border-radius: 4px;">
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label>Subject</label>
+                        <select id="subject" style="width:100%; padding: 10px; margin-top: 5px; border: 1px solid #ddd; border-radius: 4px;">
+                            <option value="General Inquiry">General Inquiry</option>
+                            <option value="Partnership">Partnership</option>
+                            <option value="Support">Support</option>
+                        </select>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label>Message</label>
+                        <textarea id="message" rows="4" placeholder="How can we help you?" required style="width:100%; padding: 10px; margin-top: 5px; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Send Message via WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer style="background: #111827; color: white; padding: 2rem; text-align: center; margin-top: 4rem;">
+        <p>&copy; 2026 Teller’s Higts Technologies</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
